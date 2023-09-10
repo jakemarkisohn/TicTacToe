@@ -1,0 +1,214 @@
+body {
+    background-color:  #151719;
+    margin-top: 15vmin;
+    margin-left: 60vmin;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+}
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8vmin;
+    margin-right: none
+    ;
+  }
+  
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 8.5vw;
+    text-transform: uppercase;
+  }
+
+
+.boxes {
+    display: flex;
+    color: white;
+    border: solid whitesmoke 8px;
+    height: 180px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    border-right: none;
+    border-top: none;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+#topLeft {
+    border-left: none;
+    border-top: none;
+}
+#midLeft {
+    border-left: none;
+}
+#bottomLeft {
+    border-left: none;
+    border-bottom: none;
+}
+
+#midTop {
+    border-top: none;
+}
+#midBottom {
+    border-bottom: none;
+}
+
+#topRight{
+    border-top: none;
+    border-right: none;
+}
+#midRight {
+    border-right: none;
+}
+#bottomRight {
+    border-right: none;
+    border-bottom: none;
+}
+
+   .waviy {
+    display: flex;
+    flex-direction: column;
+     position: relative;
+     margin-left: -50vmin;
+     margin-top: 10vmin;
+     padding-right: 150px;
+     /* -webkit-box-reflect: below -220px linear-gradient(transparent, rgba(0,0,0,.2)); */
+     font-size: 100px;
+   }
+   .waviy span {
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     position: relative;
+     display: inline-block;
+     color: #fff;
+     text-transform: uppercase;
+     animation: waviy 1s infinite;
+     animation-delay: calc(.1s * var(--i));
+     
+   }
+   @keyframes waviy {
+     0%,60%,100% {
+       transform: translateY(0)
+     }
+     20% {
+       transform: translateY(-20px)
+     }}
+
+.game-board {
+display: flex;
+justify-content: center;
+padding-right: 90px
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+
+.container {
+  margin-top: -5vmin;
+  margin-right: 30vmin;
+  max-width: fit-content;
+  max-height: 700px;
+  background: #4c1d95;
+  /* background: grey; */
+  flex-direction: column;
+  /* align-items: center; */
+  border-radius: 12px;
+  border: 3px solid white;
+  /* display: flex;
+  flex-direction: column; */
+  align-self: center;
+  /* justify-content: space-evenly; */
+  padding: 25px;
+ 
+  box-shadow: 0px 0px 3px black;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.col-heading h1 {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+
+  color: white;
+}
+.col-display {
+  width: 155px;
+  height: 120px;
+  background: #080001;
+  border-radius: 5px;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 110px;
+  text-align: center;
+  color: #f94f6d;
+}
+.col-points {
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.buttons {
+    
+    display: flex;
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: -40%;
+ 
+}
+
+#clearS {
+  
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #012880;
+	background-image: linear-gradient(-180deg, #FF89D6 0%, #C01F9E 100%);
+	box-shadow: 0 1rem 1.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(110, 15, 155, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgba(180, 70, 207, 1) inset;
+}
+
+#clearB {
+
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 20px;
+  border: 1px solid #012880;
+	background-image: linear-gradient(-180deg, #FF89D6 0%, #C01F9E 100%);
+	box-shadow: 0 1rem 1.25rem 0 rgba(22,75,195,0.50),
+							0 -0.25rem 1.5rem rgba(110, 15, 155, 1) inset,
+							0 0.75rem 0.5rem rgba(255,255,255, 0.4) inset,
+							0 0.25rem 0.5rem 0 rgba(180, 70, 207, 1) inset;
+}
+
+
+

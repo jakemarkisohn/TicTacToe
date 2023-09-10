@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+      <body>
+        <div class="waviy">
+          <span style="--i:1">TIC</span>
+          <span style="--i:4">TAC</span>
+          <span style="--i:7">TOE</span>
+
+         </div>
+       </body>
+
+    <div class="game-board">
+        <div class="leftLine">
+            <div class="boxes" id="topLeft"></div>
+            <div class="boxes" id="midLeft"></div>
+            <div class="boxes" id="bottomLeft"></div>
+        </div>
+
+        <div class="middleLine">
+            <div class="boxes" id="midTop"></div>
+            <div class="boxes" id="midCenter"></div>
+            <div class="boxes" id="midBottom"></div>
+        </div>
+
+        <div class="rightLine">
+            <div class="boxes" id="topRight"></div>
+            <div class="boxes" id="midRight"></div>
+            <div class="boxes" id="bottomRight"></div>
+        </div>
+    </div>
+
+    <!-- <div>
+        <button id="clearButton">CLEAR BOARD</button>
+    </div> -->
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col col-heading">
+                <h1>TEAM-X</h1>
+            </div>
+            <div class="col col-display" id="scoreHome">0</div>
+            <div class="col col-points">
+                <!-- <button class="add" onClick="addOneHome()">+1</button> -->
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col col-heading">
+                <h1>TEAM-O</h1>
+            </div>
+            <div class="col col-display" id="scoreGuest">0</div>
+            <div class="col col-points">
+                <!-- <button class="add" onClick="addOneGuest()">+1</button> -->
+            </div>
+            
+        </div>
+        <div class="buttons">
+            <button id="clearS" onClick="clearScore()">CLEAR SCORE</button>
+            <button id="clearB" onClick="clearBoard()">CLEAR BOARD</button>
+        </div>
+    </div>
+
+    
+
+<script src="ref.js"></script>
+</body>
+</html>
+<!-- 
+<div class="holder">
+    <div class="boxes">1</div>
+    <div class="boxes">2</div>
+    <div class="boxes">3</div>
+</div>
+
+<div class="holder">
+    <div class="boxes">4</div>
+    <div class="boxes">5</div>
+    <div class="boxes">6</div>
+</div>
+
+<div class="holder">
+    <div class="boxes">7</div>
+    <div class="boxes">8</div>
+    <div class="boxes">9</div>
+</div> -->
